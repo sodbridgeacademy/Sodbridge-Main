@@ -89,6 +89,16 @@
     text-align: center; /* Center align text */
 }
 
+.success-message {
+    color: green;
+    margin-top: 10px;
+}
+.error-message {
+    color: red;
+    margin-top: 10px;
+}
+
+
 </style>
 
 <body>
@@ -1308,7 +1318,7 @@
                             <img class="img-fluid" src="images/bg/contact-img.png" alt="">
                         </div>
                         <div class="col-lg-6 mt-7 mt-lg-0">
-                            <form id="contact-form" method="post" action="#" netlify data-netlify="true">
+                            <form id="contact-form" method="POST" action="/" netlify data-netlify="true">
                                 <div class="messages"></div>
                                 <div class="row">
                                     <div class="col-md-6">
@@ -1553,6 +1563,28 @@
     <script src="js/theme-script.js"></script>
 
     <!-- inject js end -->
+
+    <script type="text/javascript">
+        document.querySelector('#contact-form').addEventListener('submit', function(event) {
+        event.preventDefault(); // Prevent default form submission
+        const form = event.target;
+        const formData = new FormData(form);
+
+        fetch('/', {
+            method: 'POST',
+            headers: { 'Content-Type': 'application/x-www-form-urlencoded' },
+            body: new URLSearchParams(formData).toString()
+        })
+        .then(() => {
+            document.querySelector('.messages').innerHTML = '<p class="success-message">Thank you! Your message has been sent successfully.</p>';
+            form.reset(); // Reset the form fields
+        })
+        .catch((error) => {
+            document.querySelector('.messages').innerHTML = '<p class="error-message">Oops! Something went wrong. Please try again.</p>';
+            console.error('Form submission error:', error);
+        });
+    });
+    </script>
 
 </body>
 
