@@ -1,3 +1,3 @@
 ### Sodbridge Official
 
-- Sodbridge Academy: Learn more at https://sodbridge.com/
+- Sodbridge Academy: Learn more at https://academy.sodbridge.com/
