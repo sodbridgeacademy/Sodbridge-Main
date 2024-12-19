@@ -1,0 +1,465 @@
+<!DOCTYPE html>
+<html lang="zxx" class="no-js">
+<head>
+  <!-- Mobile Specific Meta -->
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+  <!-- Favicon -->
+  <link rel="shortcut icon" href="img/sodbridge1.png" />
+  <!-- Author Meta -->
+  <meta name="author" content=" Sodbridge academy" />
+  <!-- Meta Description -->
+  <meta name="description" content="Sodbridge academy is a Nigerian EdTech company that focuses on providing tech skills  to teens & youths. It offers hybrid learning as it provides students the flexibility to learn at their own pace. Check out the available courses and enroll today!" />
+  <!-- Meta Keyword -->
+  <meta name="keywords" content="Sodbridge, Sodbridge academy, tech skills, Python, data analysis, ui/ux, machine learning, artificial intelligence, AI, ML, coding school in Abuja, coding school in Lagos, affordable coding school, quality python academy, tech bootcamp. data analysis bootcamp, SQL, Python, machine learning, HTML, React, Django, Backend training, React, javascript, Full stack training." />
+  <!-- meta character set -->
+  <meta charset="UTF-8" />
+  <!-- Site Title -->
+  <title>Sodbridge Academy | Empowering Futures, Unleashing Innovation: Sodbridge Academy - Where Tech Excellence Begins!</title>
+
+  <link href="https://fonts.googleapis.com/css?family=Playfair+Display:900|Roboto:400,400i,500,700" rel="stylesheet" />
+  <!--
+      CSS
+      =============================================
+    -->
+  <link rel="stylesheet" href="css/linearicons.css" />
+  <link rel="stylesheet" href="css/font-awesome.min.css" />
+  <link rel="stylesheet" href="css/bootstrap.css" />
+  <link rel="stylesheet" href="css/magnific-popup.css" />
+  <link rel="stylesheet" href="css/owl.carousel.css" />
+  <link rel="stylesheet" href="css/nice-select.css">
+  <link rel="stylesheet" href="css/hexagons.min.css" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/themify-icons/0.1.2/css/themify-icons.css" />
+  <link rel="stylesheet" href="css/main.css" />
+</head>
+
+<style type="text/css">
+  .li {
+    text-transform: capitalize !important;
+  }
+
+  /* Container and Grid */
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.section-title {
+    text-align: center;
+    margin-bottom: 40px;
+    font-size: 32px;
+    color: #333;
+}
+
+.services-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+    gap: 30px;
+}
+
+/* Service Item */
+.service-item {
+    background: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.service-item h3 {
+    font-size: 24px;
+/*    color: #007bff;*/
+		color: #333;
+    margin-bottom: 15px;
+}
+
+.service-item p {
+    font-size: 16px;
+    line-height: 1.6;
+    margin-bottom: 15px;
+}
+
+.service-item ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+.service-item ul li {
+    font-size: 16px;
+    margin-bottom: 10px;
+    position: relative;
+    padding-left: 20px;
+}
+
+.service-item ul li:before {
+    content: "✔";
+    color: #007bff;
+    font-size: 18px;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+/* Hover Effect */
+.service-item:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15);
+}
+
+.cta-section {
+        text-align: center;
+        background-color: #6f42c1;
+        padding: 50px 0;
+    }
+    .cta-section h2 {
+        font-size: 28px;
+        margin-bottom: 10px;
+    }
+    .cta-section p {
+        font-size: 18px;
+        margin-bottom: 20px;
+    }
+    .cta-button {
+        display: inline-block;
+        padding: 15px 30px;
+        background-color: #333;
+        color: white;
+        font-size: 16px;
+        border-radius: 5px;
+        text-decoration: none;
+        transition: background-color 0.3s ease;
+    }
+    .cta-button:hover {
+        background-color: #fff;
+    }
+
+</style>
+
+<script type="text/javascript">
+	// Optional: Add animations for entry
+document.addEventListener('DOMContentLoaded', () => {
+    const serviceItems = document.querySelectorAll('.service-item');
+
+    serviceItems.forEach((item, index) => {
+        setTimeout(() => {
+            item.style.opacity = '1';
+            item.style.transform = 'translateY(0)';
+        }, index * 100);  // Adds a slight delay for each item for a staggered effect
+    });
+});
+
+</script>
+
+<body>
+  <!-- ================ Start Header Area ================= -->
+  <header class="default-header">
+    <nav class="navbar navbar-expand-lg  navbar-light">
+      <div class="container">
+        <a class="navbar-brand" href="index.html">
+          <img src="img/sodbridge1.png" style="height: 50px; width: 65px;" alt="Sodbridge Academy" />
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="lnr lnr-menu"></span>
+        </button>
+
+        <div class="collapse navbar-collapse justify-content-end align-items-center" id="navbarSupportedContent">
+          <ul class="navbar-nav">
+            <li><a class="li" href="index.html">Home</a></li>
+            <li><a class="li" href="about.html">About</a></li>
+            <li><a class="li" href="courses.html">Courses</a></li>
+            <li><a class="li" href="tech-services.html">For Business Clients</a></li>
+            <!-- <li><a class="li" href="blog-home.html">Blog</a></li> -->
+            <!-- Dropdown -->
+            <!-- <li class="dropdown">
+              <a class="dropdown-toggle" href="#" data-toggle="dropdown">
+                Pages
+              </a>
+              <div class="dropdown-menu">
+                <a class="dropdown-item" href="elements.html">Elements</a>
+                <a class="dropdown-item" href="course-details.html">Course Details</a>
+              </div>
+            </li> -->
+            <!-- <li class="dropdown">
+              <a class="dropdown-toggle" href="#" data-toggle="dropdown">
+                Blog
+              </a>
+              <div class="dropdown-menu">
+                <a class="dropdown-item" href="blog-home.html">Blog Home</a>
+                <a class="dropdown-item" href="blog-single.html">Blog Details</a>
+              </div>
+            </li> -->
+            <li><a class="li" href="contacts.html">Contact</a></li>
+
+            <!-- <li>
+              <button class="search">
+                <span class="lnr lnr-magnifier" id="search"></span>
+              </button>
+            </li> -->
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!-- <div class="search-input" id="search-input-box">
+      <div class="container">
+        <form class="d-flex justify-content-between">
+          <input type="text" class="form-control" id="search-input" placeholder="Search Here" />
+          <button type="submit" class="btn"></button>
+          <span class="lnr lnr-cross" id="close-search" title="Close Search"></span>
+        </form>
+      </div>
+    </div> -->
+  </header>
+  <!-- ================ End Header Area ================= -->
+
+	<!-- ================ start banner Area ================= -->
+	<section class="banner-area">
+		<div class="container">
+			<div class="row justify-content-center align-items-center">
+				<div class="col-lg-12 banner-right">
+					<h1 class="text-white">
+						Tech Services
+					</h1>
+					<p class="mx-auto text-white  mt-20 mb-40">
+						Empowering your business with cutting-edge technology solutions tailored to your needs.
+					</p>
+					<div class="link-nav">
+						<span class="box">
+							<a href="index.html">Home </a>
+							<i class="lnr lnr-arrow-right"></i>
+							<a href="tech-services.html">Tech Services</a>
+						</span>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!-- ================ End banner Area ================= -->
+
+	<!-- Start Sample Area -->
+	<section class="sample-text-area">
+		<div class="container">
+			<h3 class="text-heading">What We Do</h3>
+			<p class="sample-text">
+				Welcome to Sodbridge Tech Services division, where innovation meet execution. We are your trusted partner for your technology needs. Our team of experts specializes in delivering a wide range of innovative solutions tailored to your business requirements. Our goal is to empower businesses with cutting-edge technology solutions that drive growth, efficiency, and success. 
+				Explore our comprehensive range of services designed to meet your every tech need:
+			</p>
+		</div>
+	</section>
+	<!-- End Sample Area -->
+
+	<!-- Start Services Section -->
+
+	<section class="services-section">
+    <div class="container">
+        <h2 class="section-title">Our Services</h2>
+        <div class="services-grid">
+
+            <!-- Software Development -->
+            <div class="service-item">
+                <h3>Software Development</h3>
+                <p>
+                    Sodbridge specializes in providing unique software solutions to help organizations succeed in the digital era.
+                    Our services include:
+                </p>
+                <ul>
+                    <li><b>Discovery and Planning:</b> Understanding your demands and business objectives.</li>
+                    <li><b>Design and Prototyping:</b> Testing ideas with user-friendly, aesthetically pleasing interfaces.</li>
+                    <li><b>Agile Development:</b> Using agile approaches for cooperation and adaptability.</li>
+                    <li><b>Quality Assurance:</b> Thorough testing to ensure flawless performance on all platforms.</li>
+                    <li><b>Deployment and Support:</b> Continuous maintenance and support post-deployment.</li>
+                </ul>
+            </div>
+
+            <!-- Data Analytics -->
+            <div class="service-item">
+                <h3>Data Analytics</h3>
+                <p>
+                    Unlock the full potential of your data with Sodbridge's advanced analytics solutions, transforming raw data into actionable intelligence:
+                </p>
+                <ul>
+                    <li><b>Data Collection & Preparation:</b> Gathering and organizing data from various sources.</li>
+                    <li><b>Descriptive Analytics:</b> Summarizing and interpreting historical data.</li>
+                    <li><b>Predictive Analytics:</b> Forecasting future trends using machine learning algorithms.</li>
+                    <li><b>Prescriptive Analytics:</b> Offering actionable recommendations for decision-making.</li>
+                    <li><b>Data Visualization:</b> Creating intuitive dashboards and reports for stakeholder insight.</li>
+                </ul>
+            </div>
+
+            <!-- Mobile Apps -->
+            <div class="service-item">
+                <h3>Mobile Apps</h3>
+                <p>
+                    Sodbridge crafts cutting-edge mobile applications for businesses. Our services include:
+                </p>
+                <ul>
+                    <li><b>Strategic Planning:</b> Defining clear goals and aligning them with your business objectives.</li>
+                    <li><b>User-Centric Design:</b> Creating visually appealing, intuitive interfaces.</li>
+                    <li><b>Custom Development:</b> Building scalable mobile apps using the latest technologies.</li>
+                    <li><b>Quality Assurance:</b> Testing for seamless app functionality across devices.</li>
+                    <li><b>Deployment and Support:</b> Ensuring smooth deployment and continuous support.</li>
+                </ul>
+            </div>
+
+            <!-- IT Trainings/Consultancy -->
+            <div class="service-item">
+                <h3>IT Trainings/Consultancy</h3>
+                <p>
+                    Empower your team with Sodbridge’s comprehensive training and consultancy services, offering:
+                </p>
+                <ul>
+                    <li>Upskilling programs for your employees across various IT domains.</li>
+                    <li>Optimizing IT infrastructure to streamline operations and boost efficiency.</li>
+                    <li>Expert consultancy services to navigate complex technology challenges.</li>
+                </ul>
+            </div>
+
+            <!-- Website Design -->
+            <div class="service-item">
+                <h3>Website Designs</h3>
+                <p>
+                We offer creative and responsive website design solutions to help your business stand out. From wireframing to full-stack development, our team delivers user-friendly and high-performance websites.
+	            </p>
+	            <ul>
+	                <li><b>UI/UX Design:</b> Crafting visually appealing and intuitive user interfaces.</li>
+	                <li><b>Custom Web Development:</b> Scalable and feature-rich websites.</li>
+	                <li><b>Responsive Design:</b> Optimized for mobile, tablet, and desktop devices.</li>
+	                <li><b>SEO Optimization:</b> Ensuring your website ranks well on search engines.</li>
+	            </ul>
+            </div>
+
+            <!-- Digital Marketing/Social Media Management -->
+	        <div class="service-item">
+	            <h3>Digital Marketing & Social Media Management</h3>
+	            <p>
+	                Boost your online presence with our tailored digital marketing services. Our social media management strategies help you engage with your audience and grow your brand.
+	            </p>
+	            <ul>
+	                <li><b>Social Media Strategy:</b> Tailored strategies to grow your presence.</li>
+	                <li><b>Content Creation:</b> Engaging content for your target audience.</li>
+	                <li><b>SEO & SEM:</b> Optimize your website and ads for search engines.</li>
+	                <li><b>Analytics and Reporting:</b> Measure your digital marketing ROI.</li>
+	            </ul>
+	        </div>
+
+        </div>
+    </div>
+</section>
+	<!-- End Services Section -->
+
+	<!-- Business Client Section -->
+	<section class="cta-section">
+    <div class="container">
+        <h2>Get Started with Sodbridge Today</h2>
+        <p>Are you ready to elevate your business with our services? Fill out our business client form to get started!</p>
+        <a href="https://forms.gle/7YPPmYkGySDMHEfv5" class="cta-button btn-default text-uppercase" target="_blank">Send Us a Message</a>
+    </div>
+</section>
+<!-- End Business Client Section -->
+
+
+	<!-- Whats App Icon -->
+  <script async src='https://d2mpatx37cqexb.cloudfront.net/delightchat-whatsapp-widget/embeds/embed.min.js'></script>
+        <script>
+          var wa_btnSetting = {"btnColor":"#16BE45","ctaText":"WhatsApp Us","cornerRadius":40,"marginBottom":20,"marginLeft":20,"marginRight":20,"btnPosition":"right","whatsAppNumber":"+2347080491060","welcomeMessage":"Hello","zIndex":999999,"btnColorScheme":"light"};
+          var wa_widgetSetting = {"title":"Sodbridge Academy","subTitle":"Typically replies within 15 mins","headerBackgroundColor":"#FBFFC8","headerColorScheme":"dark","greetingText":"Hi there! \nHow can I help you?","ctaText":"Start Chat","btnColor":"#1A1A1A","cornerRadius":40,"welcomeMessage":"Hello","btnColorScheme":"light","brandImage":"https://i.pinimg.com/736x/de/59/4e/de594ec09881da3fa66d98384a3c72ff.jpg","darkHeaderColorScheme":{"title":"#333333","subTitle":"#4F4F4F"}};  
+          window.onload = () => {
+            _waEmbed(wa_btnSetting, wa_widgetSetting);
+          };
+  </script>
+
+
+	  <!-- ================ start footer Area ================= -->
+  <footer class="footer-area section-gap">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-4 col-md-6 single-footer-widget">
+					<h4>Top Courses</h4>
+					<ul>
+						<li><a href="#">Fullstack development</a></li>
+						<li><a href="#">Machine learning</a></li>
+						<li><a href="#">AI & Machine Learning</a></li>
+						<li><a href="#">Data analytics</a></li>
+					</ul>
+				</div>
+				<div class="col-lg-4 col-md-6 single-footer-widget">
+					<h4>Quick Links</h4>
+					<ul>
+						<li><a href="about.html">About</a></li>
+						<li><a href="tech-services.html">For Business Clients</a></li>
+						<li><a href="#">Blog</a></li>
+						<li><a href="contacts.html">Contact</a></li>
+					</ul>
+				</div>
+				<!-- <div class="col-lg-4 col-md-6 single-footer-widget">
+					<h4>Features</h4>
+					<ul>
+						<li><a href="#">Jobs</a></li>
+						<li><a href="#">Brand Assets</a></li>
+						<li><a href="#">Investor Relations</a></li>
+						<li><a href="#">Terms of Service</a></li>
+					</ul>
+				</div> -->
+				<!-- <div class="col-lg-3 col-md-6 single-footer-widget">
+					<h4>Resources</h4>
+					<ul>
+						<li><a href="#">Guides</a></li>
+						<li><a href="#">Research</a></li>
+						<li><a href="#">Experts</a></li>
+						<li><a href="#">Agencies</a></li>
+					</ul>
+				</div> -->
+
+				<div class="col-lg-4 col-md-6 single-footer-widget">
+					<h4>Newsletter</h4>
+					<p>You can trust us. we only send promo offers,</p>
+					<div class="form-wrap" id="mc_embed_signup">
+						<form target="_blank" action="https://spondonit.us12.list-manage.com/subscribe/post?u=1462626880ade1ac87bd9c93a&amp;id=92a4423d01"
+						 method="get" class="form-inline">
+							<input class="form-control" name="EMAIL" placeholder="Your Email Address" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Your Email Address '"
+							 required="" type="email">
+							<button class="click-btn btn btn-default text-uppercase">subscribe</button>
+							<div style="position: absolute; left: -5000px;">
+								<input name="b_36c4fd991d266f23781ded980_aefe40901a" tabindex="-1" value="" type="text">
+							</div>
+
+							<div class="info"></div>
+						</form>
+					</div>
+				</div>
+			</div>
+			<div class="footer-bottom row align-items-center">
+				<p class="footer-text m-0 col-lg-8 col-md-12">
+<!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | This website is made with <i class="fa fa-heart-o" aria-hidden="true"></i> by <a href="https://sodbridge.com" target="">Sodbridge</a>
+<!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. --></p>
+				<div class="col-lg-4 col-md-12 footer-social">
+					<a href="https://web.facebook.com/sodbridgeacademy" target="_blank"><i class="fa fa-facebook"></i></a>
+					<a href="https://twitter.com/SodbridgeAcade1" target="_blank"><i class="fa fa-twitter"></i></a>
+					<a href="https://www.linkedin.com/company/sodbridgeacademy/" target="_blank"><i class="fa fa-linkedin"></i></a>
+          <a href="https://www.instagram.com/sodbridgeacademy/" target="_blank"><i class="fa fa-instagram"></i></a>
+					<a href="https://www.youtube.com/@sodbridgeacademy" target="_blank"><i class="fa fa-youtube"></i></a>
+				</div>
+			</div>
+		</div>
+	</footer>
+  <!-- ================ End footer Area ================= -->
+
+	<script src="js/vendor/jquery-2.2.4.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js" integrity="sha384-b/U6ypiBEHpOf/4+1nzFpr53nxSS+GLCkfwBdFNTxtclqqenISfwAzpKaMNFNmj4"
+	 crossorigin="anonymous"></script>
+	<script src="js/vendor/bootstrap.min.js"></script>
+	<script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBhOdIF3Y9382fqJYt5I_sswSrEw5eihAA"></script>
+	<script src="js/jquery.ajaxchimp.min.js"></script>
+	<script src="js/jquery.magnific-popup.min.js"></script>
+	<script src="js/parallax.min.js"></script>
+	<script src="js/owl.carousel.min.js"></script>
+	<script src="js/jquery.sticky.js"></script>
+	<script src="js/hexagons.min.js"></script>
+	<script src="js/jquery.counterup.min.js"></script>
+	<script src="js/waypoints.min.js"></script>
+	<script src="js/jquery.nice-select.min.js"></script>
+	<script src="js/main.js"></script>
+</body>
+
+</html>
