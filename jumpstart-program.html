@@ -30,32 +30,60 @@
 
   <style type="text/css">
     /* Additional styling specific to the Jumpstart landing page */
+ 
     .jumpstart-banner {
-      background: url('img/jumpstart-banner.jpg') center/cover no-repeat;
+      background: url('img/jumpstart-banner.avif') center/cover no-repeat;
       color: #fff;
       padding: 80px 20px;
       text-align: center;
+      margin-top: 70px; /* adjust this value if needed */
     }
+    /* Bold text for hero banner */
     .jumpstart-banner h1 {
       font-size: 3em;
+      font-weight: bold;
       margin-bottom: 10px;
     }
     .jumpstart-banner p {
       font-size: 1.2em;
+      font-weight: bold;
       margin-bottom: 0;
     }
-    .program-content {
-      padding: 60px 20px;
-    }
-    .program-content h2 {
-      color: #007bff;
-      margin-bottom: 20px;
+    .steps {
+      font-size: 1.2em;
+      margin: 20px 0;
+      font-weight: bold;
+      line-height: 1.6;
     }
     .track-item {
       margin-bottom: 30px;
+      border: 1px solid #eee;
+      padding: 15px;
+      border-radius: 5px;
+      background: #fafafa;
+      text-align: center;
     }
     .track-item h3 {
       color: #007bff;
+      font-weight: bold;
+    }
+    .track-item p {
+      margin-bottom: 10px;
+    }
+    .module-link {
+      display: inline-block;
+      margin-top: 10px;
+      color: #007bff;
+      font-weight: bold;
+      border: 2px solid #007bff;
+      padding: 8px 16px;
+      border-radius: 5px;
+      text-decoration: none;
+      transition: background 0.3s, color 0.3s;
+    }
+    .module-link:hover {
+      background: #007bff;
+      color: #fff;
     }
     .cta-section {
       text-align: center;
@@ -67,6 +95,7 @@
       padding: 15px 30px;
       font-size: 1.2em;
       border-radius: 5px;
+      text-decoration: none;
       transition: background 0.3s ease;
     }
     .cta-section a:hover {
@@ -100,96 +129,65 @@
   </header>
   <!-- ================ End Header Area ================= -->
 
-  <!-- ================ Start Jumpstart Banner Area ================= -->
+   <!-- ================ Start Jumpstart Banner Area ================= -->
   <section class="jumpstart-banner">
     <div class="container">
-      <h1>5‑Week Tech Jumpstart Program</h1>
-      <p>Kickstart Your Future in Tech with Sodbridge Academy</p>
+      <!-- <h1>5‑Week Tech Jumpstart Program</h1> -->
+      <!-- <p>Kickstart your tech career with affordable, interactive training!</p> -->
     </div>
-  </section>
+  </section> <br>
   <!-- ================ End Jumpstart Banner Area ================= -->
 
   <!-- ================ Start Program Content Area ================= -->
+
   <section class="program-content">
     <div class="container">
       <div class="section-title text-center">
         <h2>Your Pathway to Tech Excellence</h2>
-        <p>
-          Enroll in our exclusive 5‑Week Tech Jumpstart Program and choose from three in-demand tracks:
-        </p>
+        <!-- <p>Enroll in our 5‑week program for ₦10k per head. Eligible students who meet our Terms & Conditions will be awarded a 50% scholarship to our full bootcamp should they choose to proceed.</p> -->
       </div>
-
+      
+      <div class="steps">
+        <p class="or"><strong>Step 1:</strong> Enroll in the 5‑Week Tech Jumpstart Program for ₦10k.</p>
+        <p class="or"><strong>Step 2:</strong> Complete quizzes, assignments, participate in live sessions, and ensure terms & conditions are met.</p>
+        <p class="or"><strong>Step 3:</strong> Eligible students receive a 50% scholarship for the full bootcamp if they choose to proceed.</p>
+      </div>
+      
       <div class="row">
         <!-- UI/UX Track -->
         <div class="col-md-4 track-item">
-          <div class="single-course">
-            <img class="img-fluid" src="img/courses/uiuximg.png" alt="UI/UX Design" style="height:140px; width:100%; object-fit:cover;">
-            <div class="details">
-              <h3>UI/UX Design (Figma)</h3>
-              <p>Create engaging app interfaces and prototypes with Figma.</p>
-            </div>
-          </div>
+          <img class="img-fluid" src="img/courses/ui-ux-picture.jpg" alt="UI/UX Design" style="height:180px; width:100%; object-fit:cover;">
+          <h3>UI/UX Design</h3>
+          <p>Create engaging app interfaces and prototypes using Figma.</p>
+          <a class="module-link" href="https://docs.google.com/document/d/1_u0ErRDbV4BLAPUBciC2Uj0tACVf5b6zywq5h7ndq3U/edit?usp=sharing" target="_blank">View Brochure</a>
         </div>
 
-        <!-- Front-End Track -->
+        <!-- Full Stack Dev Jumpstart (Front-End Focus) -->
         <div class="col-md-4 track-item">
-          <div class="single-course">
-            <img class="img-fluid" src="img/courses/frontend1.png" alt="Front-End Development" style="height:140px; width:100%; object-fit:cover;">
-            <div class="details">
-              <h3>Front-End Development (JavaScript & React)</h3>
-              <p>Build dynamic web applications and interactive user experiences.</p>
-            </div>
-          </div>
+          <img class="img-fluid" src="img/courses/frontend1.png" alt="Front-End Development" style="height:180px; width:100%; object-fit:cover;">
+          <h3>Full Stack Dev Jumpstart</h3>
+          <p>Focus on Front-End Development with JavaScript & React as your gateway to full stack mastery.</p>
+          <a class="module-link" href="https://docs.google.com/document/d/1gCbqFGzN64ZMWcH8N89qLk16zaxifxYZdYZ_dn9KSb4/edit?usp=sharing" target="_blank">View Brochure</a>
         </div>
 
         <!-- Data Analysis Track -->
         <div class="col-md-4 track-item">
-          <div class="single-course">
-            <img class="img-fluid" src="img/courses/analysis2.jpeg" alt="Data Analysis" style="height:140px; width:100%; object-fit:cover;">
-            <div class="details">
-              <h3>Data Analysis (Power BI)</h3>
-              <p>Transform data into insights with interactive Power BI dashboards.</p>
-            </div>
-          </div>
+          <img class="img-fluid" src="img/courses/data_analysis.png" alt="Data Analysis" style="height:180px; width:100%; object-fit:cover;">
+          <h3>Data Analysis</h3>
+          <p>Learn to transform data into actionable insights with Power BI.</p>
+          <a class="module-link" href="https://docs.google.com/document/d/1wUNO0Az3E4uvaB35D-Oe7gpb4Nxh5e1mxJXfiPjiNvk/edit?usp=sharing" target="_blank">View Brochure</a>
         </div>
       </div>
-
-      <!-- How It Works -->
-      <div class="section-title text-center" style="margin-top:40px;">
-        <h2>How It Works</h2>
-        <p>
-          For only ₦15k refundable* upon meeting course requirements, you'll receive:
-        </p>
-      </div>
-      <div class="row">
-        <div class="col-md-6">
-          <ul>
-            <li>Engaging short video tutorials & interactive Jupyter Notebook sessions</li>
-            <li>Weekly quizzes and assignments to reinforce learning</li>
-            <li>A final mini project to showcase your new skills</li>
-            <li>Live check-in sessions for real-time support</li>
-          </ul>
-        </div>
-        <div class="col-md-6">
-          <ul>
-            <li>Access to exclusive course materials and resources</li>
-            <li>Pathway to full bootcamp discounts for further advanced training</li>
-            <li>Opportunities to join our vibrant tech community</li>
-            <li>Designed for students, fresh graduates, and career transitioners (Ages 16-50)</li>
-          </ul>
-        </div>
-      </div>
-      <p class="text-center" style="font-style: italic; margin-top:20px;">
-        <!-- <b>Your ₦15k commitment fee is fully applicable upon meeting all scholarship requirements.</b> -->
-      </p>
+      
     </div>
   </section>
   <!-- ================ End Program Content Area ================= -->
 
+
   <!-- ================ Start Call to Action ================= -->
   <section class="cta-section">
-    <div class="container">
-      <a href="[YourLandingPageLink]">Register Now</a>
+    <div class="container ">
+      <a class="btn text-uppercase enroll click-btn btn btn-default" href="https://docs.google.com/forms/d/e/1FAIpQLSc4YLiUGTjHMARvEa0J33L6hG3Iu9DQAHS7qIYfQAeGEGKFaA/viewform?usp=sharing">Enroll Now</a>
     </div>
   </section>
   <!-- ================ End Call to Action ================= -->
@@ -202,7 +200,7 @@
           <h4>Top Courses</h4>
           <ul>
             <li><a href="#">Fullstack Development</a></li>
-            <li><a href="#">Machine Learning</a></li>
+            <li><a href="#">UI/UX</a></li>
             <li><a href="#">AI & Machine Learning</a></li>
             <li><a href="#">Data Analytics</a></li>
           </ul>
@@ -212,7 +210,8 @@
           <ul>
             <li><a href="about.html">About</a></li>
             <li><a href="https://sodbridge.com/">Business Clients</a></li>
-            <li><a href="#">Blog</a></li>
+            <li><a href="jumpstart-program.html">Jumpstart Course</a></li>
+            <!-- <li><a href="#">Blog</a></li> -->
             <li><a href="contacts.html">Contact</a></li>
           </ul>
         </div>
