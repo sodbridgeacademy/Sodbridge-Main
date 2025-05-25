@@ -139,7 +139,8 @@
             <li><a class="li" href="index.html">Home</a></li>
             <li><a class="li" href="about.html">About</a></li>
             <li><a class="li" href="courses.html">Courses</a></li>
-            <li><a class="li" href="https://sodbridge.com/">Business Clients</a></li>
+            <li><a class="li" href="partners.html">Partners</a></li>   
+            <!-- <li><a class="li" href="https://sodbridge.com/">Business Clients</a></li> -->
             <!-- <li><a class="li" href="blog-home.html">Blog</a></li> -->
             <!-- Dropdown -->
             <!-- <li class="dropdown">
@@ -220,6 +221,7 @@
                         <img class="img-fluid" src="img/data_analysis2.jpeg" alt="data analysis" style="width:80%;">
                     </div>
                     <div class="content-wrapper">
+
                         <h4 class="title">Objectives</h4>
                         <div class="content">
                             Empower students with data wrangling, analysis, and visualization skills, utilizing tools like Python, SQL, and statistical methods to derive actionable insights and make data-driven decisions.
@@ -232,13 +234,13 @@
                         <div class="content">
                             <ul>
                                 <li>
-                                    No Prior Experience Required: Open to beginners without prior data analytics or coding experience but with a keen interest in data-driven insights.
+                                    <b>No Prior Experience Required:</b> Open to beginners without prior data analytics or coding experience but with a keen interest in data-driven insights.
                                 </li>
                                 <li>
-                                    Analytical Mindset: Ideal for students or fresh graduates curious about analyzing data, storytelling with data, and making informed decisions.
+                                    <b>Analytical Mindset:</b> Ideal for students or fresh graduates curious about analyzing data, storytelling with data, and making informed decisions.
                                 </li>
                                 <li>
-                                   Transitioning to Tech or Data Roles: Suitable for individuals aspiring to pivot their careers toward tech or data-focused roles, offering foundational skills in data analytics.
+                                   <b>Transitioning to Tech or Data Roles:</b> Suitable for individuals aspiring to pivot their careers toward tech or data-focused roles, offering foundational skills in data analytics.
                                 </li>
                             </ul>
                         </div>
@@ -268,8 +270,9 @@
                         <br>
                         <h4>Program Outline</h4>
                         <div class="module-container">
+                            <!-- Module 1 -->
                             <div class="module-item" onclick="toggleModuleContent('excel-content')">
-                                Module 1: Excel
+                                Module 1: Excel for Data Analysis
                             </div>
                             <div id="excel-content" class="module-content">
                                 <h3>Excel Topics</h3>
@@ -286,8 +289,9 @@
                                 </ul>
                             </div>
 
+                            <!-- Module 2 -->
                             <div class="module-item" onclick="toggleModuleContent('sql-content')">
-                                Module 2: SQL
+                                Module 2: SQL – Working with Relational Databases
                             </div>
                             <div id="sql-content" class="module-content">
                                 <h3>SQL Topics</h3>
@@ -301,11 +305,12 @@
                                     <li>Aggregate Functions: COUNT, SUM, AVG, MIN, MAX</li>
                                     <li>Using CASE Statements</li>
                                     <li>Window Functions: ROW_NUMBER, RANK, PARTITION BY</li>
-                                    <li>Creating and Managing Tables</li>
+                                    <li>Managing Tables and Schemas</li>
                                     <li>Indexes and Performance Tuning</li>
                                 </ul>
                             </div>
 
+                            <!-- Module 3 -->
                             <div class="module-item" onclick="toggleModuleContent('powerbi-content')">
                                 Module 3: Power BI
                             </div>
@@ -317,7 +322,7 @@
                                     <li>Using Power Query Editor</li>
                                     <li>Data Cleaning and Shaping</li>
                                     <li>Creating and Customizing Visuals</li>
-                                    <li>Different Types of Visuals in Power BI</li>
+                                    <li>Types of Visuals in Power BI</li>
                                     <li>Creating Interactive Dashboards</li>
                                     <li>Publishing and Sharing Reports</li>
                                     <li>Introduction to DAX</li>
@@ -327,14 +332,30 @@
                                 </ul>
                             </div>
 
+                             <!-- Module 4 -->
+                            <div class="module-item" onclick="toggleModuleContent('career-content')">
+                                Module 4: Career Launch and Professional Skills
+                            </div>
+                            <div id="career-content" class="module-content">
+                                <h3>Career Preparation & Professional Development</h3>
+                                <ul>
+                                    <li>Mastering Communication & Team Collaboration</li>
+                                    <li>Problem-Solving Techniques & Time Management</li>
+                                    <li>Crafting a Winning Resume and Project Portfolio</li>
+                                    <li>Optimizing LinkedIn and GitHub for Visibility</li>
+                                    <li>Mock Interviews: Technical & Behavioral Practice</li>
+                                </ul>
+                            </div>
+
+                            <!-- Optional Module 5 -->
                             <div class="module-item" onclick="toggleModuleContent('python-content')">
-                                Bonus Module: Python
+                               Python for Data Analytics (Optional/Advanced)
                             </div>
                             <div id="python-content" class="module-content">
                                 <h3>Python Topics</h3>
                                 <ul>
                                     <li>Introduction to Python Programming</li>
-                                    <li>Data Types, Variables, and Basic Operations</li>
+                                    <li>Variables, Data Types and Operations</li>
                                     <li>Data Structures: Lists, Tuples, Dictionaries, and Sets</li>
                                     <li>Introduction to Pandas and NumPy</li>
                                     <li>DataFrames: Creation, Indexing, and Slicing</li>
@@ -345,6 +366,20 @@
                                     <li>Creating Various Types of Plots</li>
                                 </ul>
                             </div>
+
+                            <!-- Capstone Project/Presentation  -->
+                            <div class="module-item" onclick="toggleModuleContent('project-content')">
+                                Final Project & Certification
+                            </div>
+                            <div id="project-content" class="module-content">
+                                <h3>Capstone Project</h3>
+                                <ul>
+                                    <li>Apply all learned tools (Excel, SQL, Power BI, and/or Python) to solve a real-world business problem</li>
+                                    <li>Design and present a data dashboard and analysis report</li>
+                                    <li>Receive feedback and earn a certificate of completion</li>
+                                </ul>
+                            </div>
+
 
                         </div>
 
@@ -362,26 +397,32 @@
                         </li>
                         <li>
                             <a class="justify-content-between d-flex" href="#">
-                                <p>Virtual Class Fee:</p>
-                                <span>N120,000</span>
+                                <p>Course Fee:</p>
+                                <span>N112,500</span>
                             </a>
                         </li>
-                        <li>
+<!--                         <li>
                             <a class="justify-content-between d-flex" href="#">
                                 <p>Physical Class Fee:</p>
                                 <span>N150,000</span>
                             </a>
-                        </li>
+                        </li> -->
                         <li>
                             <a class="justify-content-between d-flex" href="#">
                                 <p>Duration:</p>
-                                <span>13 Weeks</span>
+                                <span>12 Weeks</span>
                             </a>
                         </li>
                         <li>
                             <a class="justify-content-between d-flex" href="#">
                                 <p>Mode: </p>
-                                <span>Physical & Virtual</span>
+                                <span>Virtual</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a class="justify-content-between d-flex" href="#">
+                                <p>Installments</p>
+                                <span>N37500,000/Month</span>
                             </a>
                         </li>
                        <!--  <li>
@@ -390,16 +431,16 @@
                                 <span class="or">2025/01/24</span>
                             </a>
                         </li> -->
-                        <li>
+                        <!-- <li>
                             <a class="justify-content-between d-flex" href="#">
                                 <p>Scholarship</p>
                                 <span>50% for Eligible Graduates</span>
                             </a>
-                        </li>
+                        </li> -->
                         <li>
                             <a class="justify-content-between d-flex" href="#">
                                 <p>Enrollment</p>
-                                <span>Rolling Monthly</span>
+                                <span>Open</span>
                             </a>
                         </li>
                     </ul>
@@ -560,9 +601,8 @@
                     <h4>Quick Links</h4>
                     <ul>
                         <li><a href="about.html">About</a></li>
-                        <li><a href="https://sodbridge.com/">Business Clients</a></li>
-                        <li><a href="jumpstart-program.html">Jumpstart Course</a></li>
-                        <!-- <li><a href="#">Blog</a></li> -->
+                        <li><a href="partners.html">Partners</a></li>
+            <li><a href="https://sodbridge.com/">Business Client</a></li>
                         <li><a href="contacts.html">Contact</a></li>
                     </ul>
                 </div>
