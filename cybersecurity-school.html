@@ -7,7 +7,7 @@
   <!-- Favicon -->
   <link rel="shortcut icon" href="img/sodbridge1.png" />
   <!-- Author Meta -->
-  <meta name="author" content=" Sodbridge academy" />
+  <meta name="author" content=" Sodbridge Academy" />
   <!-- Meta Description -->
   <meta name="description" content="Sodbridge academy is a Nigerian EdTech company that focuses on providing tech skills  to teens & youths. It offers hybrid learning as it provides students the flexibility to learn at their own pace. Check out the available courses and enroll today!" />
   <!-- Meta Keyword -->
@@ -15,7 +15,7 @@
   <!-- meta character set -->
   <meta charset="UTF-8" />
   <!-- Site Title -->
-  <title>Sodbridge Academy | Empowering Futures, Unleashing Innovation: Sodbridge Academy - Where Tech Excellence Begins!</title>
+  <title>Sodbridge Academy | School of Cybersecurity</title>
 
   <link href="https://fonts.googleapis.com/css?family=Playfair+Display:900|Roboto:400,400i,500,700" rel="stylesheet" />
   <!--
@@ -37,6 +37,78 @@
   .li {
     text-transform: capitalize !important;
   }
+
+    .li {
+    text-transform: capitalize !important;
+  }
+
+    .tech-container {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        padding: 10px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        border-radius: 8px;
+        background-color: #fff;
+        width: 100%;
+        margin: auto;
+    }
+    .tech-item {
+        text-align: center;
+        font-size: 18px;
+        font-weight: bold;
+        padding: 10px;
+        border-radius: 4px;
+        transition: background-color 0.3s;
+    }
+    .tech-item img {
+        width: 50px;
+        height: 50px;
+        margin-bottom: 10px;
+    }
+    .tech-item:hover {
+        background-color: #f0f0f0;
+    }
+
+     .module-container {
+            width: 100%;
+            margin: auto;
+            padding: 20px;
+        }
+        .module-item {
+            margin: 10px 0;
+            padding: 10px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            cursor: pointer;
+            background-color: #f9f9f9;
+        }
+        .module-item:hover {
+            background-color: #f0f0f0;
+        }
+     
+      .module-content {
+            max-height: 0;
+            overflow: hidden;
+            transition: max-height 0.7s ease-out, padding 0.7s ease;
+            margin: 0;
+            padding: 0;
+        }
+
+        .module-content.show {
+            max-height: 500px; /* adjust if content is taller */
+            padding: 10px 0;
+            margin-bottom: 20px;
+        }
+
+        .module-item {
+            cursor: pointer;
+            padding: 10px;
+            background-color: #f5f5f5;
+            margin: 5px 0;
+            border-radius: 5px;
+        }
+
 </style>
 
 <body>
@@ -53,7 +125,7 @@
         </button>
 
         <div class="collapse navbar-collapse justify-content-end align-items-center" id="navbarSupportedContent">
-<ul class="navbar-nav">
+          <ul class="navbar-nav">
             <li><a class="li" href="index.html">Home</a></li>
             <li><a class="li" href="about.html">About</a></li>
             <!-- <li><a class="li" href="courses.html">Courses</a></li> -->
@@ -99,16 +171,16 @@
         <div class="row justify-content-center align-items-center">
           <div class="col-lg-12 banner-right">
             <h1 class="text-white">
-              Courses
+              School of Cybersecurity
             </h1>
-            <p class="mx-auto text-white  mt-20 mb-40">
-              Explore our diverse range of courses designed to empower your journey towards skills and growth.
+            <p class="mx-auto text-white mt-20 mb-40">
+              Become a cybersecurity solutions expert. Start with the right training.
             </p>
             <div class="link-nav">
               <span class="box">
                 <a href="index.html">Home </a>
                 <i class="lnr lnr-arrow-right"></i>
-                <a href="courses.html">Courses</a>
+                <a href="#">Schools</a>
               </span>
             </div>
           </div>
@@ -117,289 +189,192 @@
     </section>
   <!-- ================ End banner Area ================= -->
 
-  <!-- ================ Start Feature Area ================= -->
-  <section class="feature-area">
-    <div class="container-fluid">
-      <div class="feature-inner row">
-        <div class="col-lg-2 col-md-6">
-          <div class="feature-item d-flex">
-            <i class="ti-archive"></i>
-            <div class="ml-20">
-              <h4>Relevant Resources</h4>
+<!-- School of Cybersecurity -->
+<section id="school-of-cybersecurity" class="bg-dark text-white py-5 generic-blockquote">
+  <div class="container text-center">
+    <h2 class="display-4 font-weight-bold mb-3 text-white">🛡️ School of Cybersecurity</h2>
+    <p class="mx-auto text-white mt-3 mb-5">
+      Master in-demand security skills through hands-on courses in cybersecurity.
+    </p>
+
+    <div class="row justify-content-center">
+      <!-- mock -->
+      <div class="col-md-4 mb-4">
+      </div>
+
+      <!-- CyberSecurity -->
+        <div class="col-md-4 mb-4">
+        <div class="card shadow-sm h-100">
+          <img src="img/cyber1.1.jpeg" class="card-img-top" alt="Cybersecurity" style="height: 180px; object-fit: cover;">
+          <div class="card-body d-flex flex-column justify-content-between">
+            <div>
+              <h5 class="card-title">🛡️ Cybersecurity </h5>
+              <p class="card-text text-dark">Become a Cybersecurity professional with industry standard hands-on training.</p>
+            </div>
+            <div class="mt-3">
+              <p class="mb-1">
+                <strong class="text-dark">Status:</strong> <span class="text-danger">Coming soon</span>
+              </p>
+              <p class="mb-1">
+                <s class="text-danger">N200,000</s> <hr><span class="text-success ml-2">N70,000 Once OR N20k/Month</span>
+              </p>
               <p>
-                Access free PDFs, guides, and other curated resources to support your learning journey.
+              <button class="btn text-capitalcase enroll disabled" data-toggle="modal" data-target="#modalCybersecurity">View Curriculum</button> 
+              <!-- <a href="#register.html?course=data-analytics" class="btn btn-primary btn-sm mt-2">Register</a> -->
               </p>
             </div>
           </div>
         </div>
-        <div class="col-lg-2 col-md-6">
-          <div class="feature-item d-flex">
-            <i class="ti-book"></i>
-            <div class="ml-20">
-              <h4>Top Courses</h4>
-              <p>
-                Learn in-demand tech skills through affordable online bootcamps led by expert instructors.
-              </p>
+      </div>
+
+      <!-- Mock -->
+        <div class="col-md-4 mb-4">
+      </div>
+
+    </div>
+  </div>
+</section>
+<!-- End of School of Cybersecurity -->
+
+<!-- MODALS -->
+<!-- Modal: Cybersecurity -->
+<div class="modal fade" id="modalCybersecurity" tabindex="-1" role="dialog" aria-labelledby="modalCybersecurityLabel" aria-hidden="true">
+  <div class="modal-dialog modal-lg modal-dialog-centered" role="document">
+    <div class="modal-content text-left">
+      <div class="modal-header">
+        <h5 class="modal-title" id="modalCybersecurityLabel">🛡️ Cybersecurity Curriculum</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span>&times;</span>
+        </button>
+      </div> <hr>
+      <div class="modal-body">
+        <div class="container">
+          <div class="row">
+            <!-- Left -->
+            <div class="col-lg-8 course-details-left">
+              <div class="main-image">
+                <img class="img-fluid" src="img/cyber2.jpeg" alt="Cybersecurity" style="width:90%; height:220px;">
+              </div>
+              <div class="content-wrapper">
+                <hr>
+                <h4 class="title">Objectives</h4> <hr>
+                <div class="content">
+                  Equip students with the foundational and advanced skills to identify, prevent, and respond to cybersecurity threats, preparing them for careers as cybersecurity analysts, SOC analysts, and security engineers.
+                </div> <hr>
+
+                <h4 class="title">Technologies</h4> <br>
+                <div class="tech-container container-fluid">
+                  <div class="row">
+                    <div class="col-6 col-md-3 tech-item">
+                      <img src="img/linux1.png" alt="Linux">
+                      <div>Linux</div>
+                    </div>
+                    <div class="col-6 col-md-3 tech-item">
+                      <img src="img/network1.png" alt="Networking">
+                      <div>Networking</div>
+                    </div>
+                    <div class="col-6 col-md-3 tech-item">
+                      <img src="img/wireshark1.png" alt="Wireshark">
+                      <div>Wireshark</div>
+                    </div>
+                    <div class="col-6 col-md-3 tech-item">
+                      <img src="img/fw1.jpeg" alt="Firewalls">
+                      <div>Firewalls</div>
+                    </div>
+                    <div class="col-6 col-md-3 tech-item">
+                      <img src="img/splunk1.png" alt="Splunk">
+                      <div>Splunk</div>
+                    </div>
+                  </div>
+                </div> <br> <hr>
+
+                <h4 class="title">Eligibility</h4> <br>
+                <div class="content">
+                  <ol>
+                    <li>No prior cybersecurity experience required.</li>
+                    <li>Basic IT or networking knowledge is an added advantage.</li>
+                    <li>Suitable for students and graduates aspiring for IT security careers.</li>
+                    <li>Device: Desktop/laptop (Windows, Mac, or Linux).</li>
+                  </ol>
+                </div>
+
+                <br> <hr>
+                <h4>Program Outline</h4>
+                <div class="module-container">
+                  <div class="module-item" onclick="toggleModuleContent('cyber-wk1-2')">
+                    Module 1 (Wk 1–2): Cybersecurity Fundamentals
+                  </div>
+                  <div id="cyber-wk1-2" class="module-content">
+                    <ul>
+                      <li>Introduction to cybersecurity concepts</li>
+                      <li>Types of threats and attacks</li>
+                      <li>Security frameworks & compliance</li>
+                    </ul>
+                  </div>
+                  <div class="module-item" onclick="toggleModuleContent('cyber-wk3-5')">
+                    Module 2 (Wk 3–5): Networking & Security
+                  </div>
+                  <div id="cyber-wk3-5" class="module-content">
+                    <ul>
+                      <li>Networking protocols & OSI model</li>
+                      <li>Firewalls, VPNs, IDS/IPS</li>
+                      <li>Traffic analysis using Wireshark</li>
+                    </ul>
+                  </div>
+                  <div class="module-item" onclick="toggleModuleContent('cyber-wk6-8')">
+                    Module 3 (Wk 6–8): System & Application Security
+                  </div>
+                  <div id="cyber-wk6-8" class="module-content">
+                    <ul>
+                      <li>Windows & Linux security basics</li>
+                      <li>Application vulnerabilities (OWASP Top 10)</li>
+                      <li>Secure coding & patch management</li>
+                    </ul>
+                  </div>
+                  <div class="module-item" onclick="toggleModuleContent('cyber-wk9-12')">
+                    Module 4 (Wk 9–12): Ethical Hacking & Incident Response
+                  </div>
+                  <div id="cyber-wk9-12" class="module-content">
+                    <ul>
+                      <li>Penetration testing fundamentals</li>
+                      <li>Social engineering & phishing simulations</li>
+                      <li>Incident detection & response frameworks</li>
+                    </ul>
+                  </div>
+                  <div class="module-item" onclick="toggleModuleContent('cyber-wk13-16')">
+                    Module 5 (Wk 13–16): Capstone Project
+                  </div>
+                  <div id="cyber-wk13-16" class="module-content">
+                    <ul>
+                      <li>Conduct penetration testing of a simulated environment</li>
+                      <li>Generate vulnerability reports</li>
+                      <li>Present findings with mitigation strategies</li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Right -->
+            <div class="col-lg-4 right-contents">
+              <ul>
+                <li><a class="justify-content-between d-flex" href="#"><p>Course Name:</p><span>Cybersecurity</span></a></li>
+                <li><a class="justify-content-between d-flex" href="#"><p>Course Fee:</p><span>N70,000</span></a></li>
+                <li><a class="justify-content-between d-flex" href="#"><p>Class Mode:</p><span>Virtual only</span></a></li>
+                <li><a class="justify-content-between d-flex" href="#"><p>Duration:</p><span>17 Weeks</span></a></li>
+                <li><a class="justify-content-between d-flex" href="#"><p>Projects:</p><span>4</span></a></li>
+                <li><a class="justify-content-between d-flex" href="#"><p>Enrollment:</p><span>Open</span></a></li>
+              </ul>
+              <a href="#" class="btn text-uppercase enroll">Register Now</a>
             </div>
           </div>
-        </div>
-        <div class="col-lg-2 col-md-6">
-          <div class="feature-item d-flex border-right-0">
-            <i class="ti-desktop"></i>
-            <div class="ml-20">
-              <h4>Live Classes</h4>
-              <p>
-                Join live sessions, interact with instructors, and get real-time answers to your questions.
-              </p>
-            </div>
-          </div>
-        </div>
+        </div> 
       </div>
     </div>
-  </section>  
-  <!-- ================ End Feature Area ================= -->
+  </div>
+</div>
+<!-- End of Cybersecurity Modal -->
 
-  <!-- ================ Start Popular Course Area ================= -->
-  <section class="popular-course-area section-gap">
-    <div class="container-fluid">
-      <div class="row justify-content-center section-title">
-        <div class="col-lg-12">
-          <h2>
-            Top Bootcamp Programs<br />
-            Elevate Your Tech Skills
-          </h2>
-<!--           <p>
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua.
-          </p> -->
-        </div>
-      </div>
-
-      <div class="owl-carousel popuar-course-carusel">
-
-        <div class="single-popular-course">
-          <div class="thumb">
-            <img class="f-img img-fluid mx-auto" style="height:140px;" src="img/courses/softwaredev.jpeg" alt="Fullstack development" />
-          </div>
-          <div class="details" style="height:300px;">
-            <div class="d-flex justify-content-between mb-20">
-              <p class="name">Become a Fullstack Developer</p>
-              <p class="value"><s style="color: red;">N150,000</s> <br> N60,000</p>
-            </div>
-            <a href="fullstack-course-details.html">
-              <h4>Register for Fullstack Development Track</h4>
-            </a>
-            <div class="bottom d-flex mt-15">
-              <ul class="list">
-<!--                 <li>
-                  <a href="#"><i class="fa fa-star"></i></a>
-                </li>
-                <li>
-                  <a href="#"><i class="fa fa-star"></i></a>
-                </li>
-                <li>
-                  <a href="#"><i class="fa fa-star"></i></a>
-                </li>
-                <li>
-                  <a href="#"><i class="fa fa-star"></i></a>
-                </li>
-                <li>
-                  <a href="#"><i class="fa fa-star"></i></a>
-                </li> -->
-              </ul>
-              <!-- <p class="ml-20">25 Reviews</p> -->
-              <p class="ml-20">Status: <span style="color:green">Open</span></p>
-
-            </div>
-          </div>
-        </div>
-
-        <div class="single-popular-course" style="height:;">
-          <div class="thumb">
-            <img class="f-img img-fluid mx-auto" style="height:140px;" src="img/courses/analysis2.jpeg" alt="data analysis" />
-          </div>
-          <div class="details" style="height:300px;">
-            <div class="d-flex justify-content-between mb-20">
-              <p class="name">Learn What It Takes To Be A Data Analyst</p>
-              <p class="value"><s style="color: red;">N112,500</s> N45,000</p>
-            </div>
-            <a href="data-analysis-course-details.html">
-              <h4>Register for Data Analytics Track</h4>
-            </a>
-            <div class="bottom d-flex mt-15">
-              <ul class="list">
-<!--                 <li>
-                  <a href="#"><i class="fa fa-star"></i></a>
-                </li>
-                <li>
-                  <a href="#"><i class="fa fa-star"></i></a>
-                </li>
-                <li>
-                  <a href="#"><i class="fa fa-star"></i></a>
-                </li>
-                <li>
-                  <a href="#"><i class="fa fa-star"></i></a>
-                </li>
-                <li>
-                  <a href="#"><i class="fa fa-star"></i></a>
-                </li> -->
-                <p class="ml-20">Status: <span style="color:green;">Open</span></p>
-              </ul>
-              <!-- <p class="ml-20">25 Reviews</p> -->
-
-            </div>
-          </div>
-        </div>
-
-        <div class="single-popular-course" style="height:300px;">
-          <div class="thumb">
-            <img class="f-img img-fluid mx-auto" style="height:140px;" src="img/courses/ml.jpeg" alt="ml" />
-          </div>
-          <div class="details" style="height:300px;">
-            <div class="d-flex justify-content-between mb-20">
-              <p class="name">Learn About Data Science & AI</p>
-              <p class="value"><s style="color: red;">N150,000</s> N60,000</p>
-            </div>
-            <a href="#">
-              <h4>Register for Data Science & AI Track</h4>
-            </a>
-            <div class="bottom d-flex mt-15">
-              <ul class="list">
-                <!-- <li>
-                  <a href="#"><i class="fa fa-star"></i></a>
-                </li>
-                <li>
-                  <a href="#"><i class="fa fa-star"></i></a>
-                </li>
-                <li>
-                  <a href="#"><i class="fa fa-star"></i></a>
-                </li>
-                <li>
-                  <a href="#"><i class="fa fa-star"></i></a>
-                </li>
-                <li>
-                  <a href="#"><i class="fa fa-star"></i></a>
-                </li> -->
-              </ul>
-              <!-- <p class="ml-20">25 Reviews</p> -->
-              <p class="ml-20">Status: <span style="color:red">Closed</span></p>
-            </div>
-          </div>
-        </div>
-
-        <!-- <div class="single-popular-course" style="max-height:;">
-          <div class="thumb">
-            <img class="f-img img-fluid mx-auto" style="height:140px;" src="img/courses/robot1.jpeg" alt="robotics" />
-          </div>
-          <div class="details" style="min-height:250px;">
-            <div class="d-flex justify-content-between mb-20">
-              <p class="name">Robotics</p>
-              <p class="value"><s style="color: red;">N200,000</s> <br> N150,000</p></div>
-            <a href="#">
-              <h4>Learn The Fundamentals Of Robotics.</h4>
-            </a>
-            <div class="bottom d-flex mt-15">
-              <ul class="list">
-                <li>
-                  <a href="#"><i class="fa fa-star"></i></a>
-                </li>
-                <li>
-                  <a href="#"><i class="fa fa-star"></i></a>
-                </li>
-                <li>
-                  <a href="#"><i class="fa fa-star"></i></a>
-                </li>
-                <li>
-                  <a href="#"><i class="fa fa-star"></i></a>
-                </li>
-                <li>
-                  <a href="#"><i class="fa fa-star"></i></a>
-                </li>
-              </ul>
-              <!-- <p class="ml-20">25 Reviews</p>
-              <p class="ml-20">Status: <span style="color:red;">Closed</p>
-            </div>
-          </div>
-        </div> -->
-
-         <div class="single-popular-course" style="height:300px;">
-          <div class="thumb">
-            <img class="f-img img-fluid mx-auto" style="height:140px;" src="img/courses/uiuximg.png" alt="ui/ux" />
-          </div>
-          <div class="details" style="height:300px;">
-            <div class="d-flex justify-content-between mb-20">
-              <p class="name">Become A UI/UX Designer.</p>
-              <p class="value"><s style="color: red;">N75,000</s> <br> N30,000</p></div>
-            <a href="uiux-course-details.html">
-              <h4>Register for Product Design Track.</h4>
-            </a>
-            <div class="bottom d-flex mt-15">
-              <ul class="list">
-                <!-- <li>
-                  <a href="#"><i class="fa fa-star"></i></a>
-                </li>
-                <li>
-                  <a href="#"><i class="fa fa-star"></i></a>
-                </li>
-                <li>
-                  <a href="#"><i class="fa fa-star"></i></a>
-                </li>
-                <li>
-                  <a href="#"><i class="fa fa-star"></i></a>
-                </li>
-                <li>
-                  <a href="#"><i class="fa fa-star"></i></a>
-                </li> -->
-              </ul>
-              <!-- <p class="ml-20">25 Reviews</p> -->
-
-              <p class="ml-20">Status: <span style="color:green">Open</span></p>
-              <!-- <s style="color: red;">N50,000</s> N40,000</p></a> -->
-            </div>
-          </div>
-        </div>
-
-        <!-- <div class="single-popular-course" style="max-height:;">
-          <div class="thumb">
-            <img class="f-img img-fluid mx-auto" style="height:140px;" src="img/courses/frontend1.png" alt="frontend" />
-          </div>
-          <div class="details" style="min-height:250px;">
-            <div class="d-flex justify-content-between mb-20">
-              <p class="name">Front End Development</p>
-              <p class="value"><s style="color: red;">200,000</s> N150,000</p></div>
-            <a href="frontend-course-details.html">
-              <h4>Become A Front End Software Developer.</h4>
-            </a>
-            <div class="bottom d-flex mt-15">
-              <ul class="list">
-                 <li>
-                  <a href="#"><i class="fa fa-star"></i></a>
-                </li>
-                <li>
-                  <a href="#"><i class="fa fa-star"></i></a>
-                </li>
-                <li>
-                  <a href="#"><i class="fa fa-star"></i></a>
-                </li>
-                <li>
-                  <a href="#"><i class="fa fa-star"></i></a>
-                </li>
-                <li>
-                  <a href="#"><i class="fa fa-star"></i></a>
-                </li> 
-              </ul>
-              <p class="ml-20">25 Reviews</p>
-
-              <p class="ml-20">Status: <span style="color:red">Closed</span></p>
-              <s style="color: red;">N50,000</s> N40,000</p></a> 
-            </div>
-          </div>
-        </div> -->
-
-      </div>
-    </div>
-  </section>
-  <!-- ================ End Popular Course Area ================= -->
 
     <script async src='https://d2mpatx37cqexb.cloudfront.net/delightchat-whatsapp-widget/embeds/embed.min.js'></script>
     <script>
@@ -413,7 +388,7 @@
  
 
   <!-- ================ Start Feature Area ================= -->
-   <section class="other-feature-area">
+  <!--  <section class="other-feature-area">
     <div class="container">
       <div class="feature-inner row">
         <div class="col-lg-12">
@@ -489,7 +464,7 @@
         </div>
       </div>
     </div>
-  </section>
+  </section> -->
 
   <!-- ================ End Feature Area ================= -->
 
@@ -511,10 +486,11 @@
         <div class="col-lg-4 col-md-6 single-footer-widget">
           <h4>Top Courses</h4>
           <ul>
-            <li><a href="#">Fullstack development</a></li>
-            <li><a href="#">UI/UX</a></li>
-            <li><a href="#">AI & Machine Learning</a></li>
-            <li><a href="#">Data analytics</a></li>
+            <li><a href="software-school.html">Fullstack development</a></li>
+            <li><a href="design-school.html">UI/UX</a></li>
+            <li><a href="data-school.html">AI & Data Science</a></li>
+            <li><a href="cybersecurity-school.html">Cybersecurity</a></li>
+            <li><a href="devops-school.html">DevOps</a></li>
           </ul>
         </div>
         <div class="col-lg-4 col-md-6 single-footer-widget">
@@ -523,7 +499,7 @@
             <li><a href="about.html">About</a></li>
             <li><a href="partners.html">Partners</a></li>
             <li><a href="https://sodbridge.com/">Business Client</a></li>
-            <li><a href="contacts.html">Contact</a></li>
+            <li><a href="contact.html">Contact</a></li>
           </ul>
         </div>
         <!-- <div class="col-lg-4 col-md-6 single-footer-widget">
@@ -565,9 +541,9 @@
       </div>
       <div class="footer-bottom row align-items-center">
         <p class="footer-text m-0 col-lg-8 col-md-12">
-<!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
-Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | This website is made with <i class="fa fa-heart-o" aria-hidden="true"></i> by <a href="https://sodbridge.com" target="">Sodbridge</a>
-<!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. --></p>
+          <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+          Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | This website is made with <i class="fa fa-heart-o" aria-hidden="true"></i> by <a href="https://sodbridge.com" target="">Sodbridge</a>
+          <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. --></p>
         <div class="col-lg-4 col-md-12 footer-social">
           <a href="https://web.facebook.com/sodbridgeacademy" target="_blank"><i class="fa fa-facebook"></i></a>
           <a href="https://twitter.com/SodbridgeAcade1" target="_blank"><i class="fa fa-twitter"></i></a>
@@ -579,6 +555,13 @@ Copyright &copy;<script>document.write(new Date().getFullYear());</script> All r
     </div>
   </footer>
   <!-- ================ End footer Area ================= -->
+
+  <script>
+    function toggleModuleContent(id) {
+        const el = document.getElementById(id);
+        el.classList.toggle('show');
+    }
+  </script>
 
   <script src="js/vendor/jquery-2.2.4.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js" integrity="sha384-b/U6ypiBEHpOf/4+1nzFpr53nxSS+GLCkfwBdFNTxtclqqenISfwAzpKaMNFNmj4"
