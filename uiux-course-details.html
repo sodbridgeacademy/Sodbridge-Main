@@ -1,0 +1,704 @@
+<!DOCTYPE html>
+<html lang="zxx" class="no-js">
+
+<head>
+  <!-- Mobile Specific Meta -->
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+  <!-- Favicon -->
+  <link rel="shortcut icon" href="img/sodbridge1.png" />
+  <!-- Author Meta -->
+  <meta name="author" content=" Sodbridge academy" />
+  <!-- Meta Description -->
+  <meta name="description" content="Sodbridge academy is a Nigerian EdTech company that focuses on providing tech skills  to teens & youths. It offers hybrid learning as it provides students the flexibility to learn at their own pace. Check out the available courses and enroll today!" />
+  <!-- Meta Keyword -->
+  <meta name="keywords" content="Sodbridge, Sodbridge academy, tech skills, Python, data analysis, ui/ux, machine learning, artificial intelligence, AI, ML, coding school in Abuja, coding school in Lagos, affordable coding school, quality python academy, tech bootcamp. data analysis bootcamp, SQL, Python, machine learning, HTML, React, Django, Backend training, React, javascript, Full stack training." />
+  <!-- meta character set -->
+  <meta charset="UTF-8" />
+  <!-- Site Title -->
+  <title>Sodbridge Academy | Empowering Futures, Unleashing Innovation: Sodbridge Academy - Where Tech Excellence Begins!</title>
+
+  <link href="https://fonts.googleapis.com/css?family=Playfair+Display:900|Roboto:400,400i,500,700" rel="stylesheet" />
+  <!--
+      CSS
+      =============================================
+    -->
+  <link rel="stylesheet" href="css/linearicons.css" />
+  <link rel="stylesheet" href="css/font-awesome.min.css" />
+  <link rel="stylesheet" href="css/bootstrap.css" />
+  <link rel="stylesheet" href="css/magnific-popup.css" />
+  <link rel="stylesheet" href="css/owl.carousel.css" />
+  <link rel="stylesheet" href="css/nice-select.css">
+  <link rel="stylesheet" href="css/hexagons.min.css" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/themify-icons/0.1.2/css/themify-icons.css" />
+  <link rel="stylesheet" href="css/main.css" />
+</head>
+
+<style type="text/css">
+  .li {
+    text-transform: capitalize !important;
+  }
+      .tech-container {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        padding: 20px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        border-radius: 8px;
+        background-color: #fff;
+        width: 100%;
+        margin: auto;
+    }
+    .tech-item {
+        text-align: center;
+        font-size: 18px;
+        font-weight: bold;
+        padding: 10px;
+        border-radius: 4px;
+        transition: background-color 0.3s;
+    }
+    .tech-item img {
+        width: 50px;
+        height: 50px;
+        margin-bottom: 10px;
+    }
+    .tech-item:hover {
+        background-color: #f0f0f0;
+    }
+
+     .module-container {
+            width: 100%;
+            margin: auto;
+            padding: 20px;
+        }
+        .module-item {
+            margin: 10px 0;
+            padding: 10px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            cursor: pointer;
+            background-color: #f9f9f9;
+        }
+        .module-item:hover {
+            background-color: #f0f0f0;
+        }
+        .module-content {
+            display: none;
+            padding: 10px;
+            margin-top: 10px;
+            border-top: 1px solid #ccc;
+            opacity: 0;
+            transition: opacity 0.7s ease-in-out;
+        }
+        .module-content ul {
+            list-style-type: disc;
+            padding-left: 20px;
+        }
+</style>
+<script>
+        function toggleModuleContent(id) {
+            const allContents = document.querySelectorAll('.module-content');
+            allContents.forEach(content => {
+                if (content.id === id) {
+                    if (content.style.display === "block") {
+                        content.style.opacity = "0";
+                        setTimeout(() => {
+                            content.style.display = "none";
+                        }, 600);
+                    } else {
+                        content.style.display = "block";
+                        setTimeout(() => {
+                            content.style.opacity = "1";
+                        }, 10);
+                    }
+                } else {
+                    content.style.opacity = "0";
+                    setTimeout(() => {
+                        content.style.display = "none";
+                    }, 600);
+                }
+            });
+        }
+    </script>
+
+
+<body>
+  <!-- ================ Start Header Area ================= -->
+  <header class="default-header">
+    <nav class="navbar navbar-expand-lg  navbar-light">
+      <div class="container">
+        <a class="navbar-brand" href="index.html">
+          <img src="img/sodbridge1.png" style="height: 50px; width: 65px;" alt="Sodbridge Academy" />
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="lnr lnr-menu"></span>
+        </button>
+
+        <div class="collapse navbar-collapse justify-content-end align-items-center" id="navbarSupportedContent">
+          <ul class="navbar-nav">
+            <li><a class="li" href="index.html">Home</a></li>
+            <li><a class="li" href="about.html">About</a></li>
+            <li><a class="li" href="courses.html">Courses</a></li>
+            <!-- <li><a class="li" href="https://sodbridge.com/">Business Clients</a></li> -->
+            <li><a class="li" href="partners.html">Partners</a></li>   
+            <!-- <li><a class="li" href="blog-home.html">Blog</a></li> -->
+            <!-- Dropdown -->
+            <!-- <li class="dropdown">
+              <a class="dropdown-toggle" href="#" data-toggle="dropdown">
+                Pages
+              </a>
+              <div class="dropdown-menu">
+                <a class="dropdown-item" href="elements.html">Elements</a>
+                <a class="dropdown-item" href="course-details.html">Course Details</a>
+              </div>
+            </li> -->
+            <!-- <li class="dropdown">
+              <a class="dropdown-toggle" href="#" data-toggle="dropdown">
+                Blog
+              </a>
+              <div class="dropdown-menu">
+                <a class="dropdown-item" href="blog-home.html">Blog Home</a>
+                <a class="dropdown-item" href="blog-single.html">Blog Details</a>
+              </div>
+            </li> -->
+            <li><a class="li" href="contacts.html">Contact</a></li>
+
+            <!-- <li>
+              <button class="search">
+                <span class="lnr lnr-magnifier" id="search"></span>
+              </button>
+            </li> -->
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!-- <div class="search-input" id="search-input-box">
+      <div class="container">
+        <form class="d-flex justify-content-between">
+          <input type="text" class="form-control" id="search-input" placeholder="Search Here" />
+          <button type="submit" class="btn"></button>
+          <span class="lnr lnr-cross" id="close-search" title="Close Search"></span>
+        </form>
+      </div>
+    </div> -->
+  </header>
+  <!-- ================ End Header Area ================= --> 
+
+    <!-- ================ start banner Area ================= -->
+    <section class="banner-area">
+        <div class="container">
+            <div class="row justify-content-center align-items-center">
+                <div class="col-lg-12 banner-right">
+                    <h1 class="text-white">
+                        Course Details
+                    </h1>
+                    <p class="mx-auto text-white  mt-20 mb-40">
+                        Craft stunning user experiences and bring designs to life with our Frontend Development Bootcamp
+                    </p>
+                    <div class="link-nav">
+                        <span class="box">
+                            <a href="index.html">Home </a>
+                            <i class="lnr lnr-arrow-right"></i>
+                            <a href="courses.html">Courses </a>
+                            <i class="lnr lnr-arrow-right"></i>
+                            <a href="course-details.html">Course Details</a>
+                        </span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- ================ End banner Area ================= -->
+
+    <!--================ Start Course Details Area =================-->
+    <section class="course-details-area section-gap">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 course-details-left">
+                    <div class="main-image">
+                        <img class="img-fluid" src="img/courses/uiux2.jpg" alt="ui/ux" style="width:80%; height:350px;">
+                    </div>
+                    <div class="content-wrapper">
+                        <h4 class="title">Objectives</h4>
+                        <div class="content">
+                            Equip students with the foundational skills required to design and build user-friendly web interfaces using tools and skills such as figma, behance, design thinking, wire-framing. The course emphasizes creating seamless user experiences through intuitive and interactive designs.
+
+                            <br><br>
+
+                            Introduce students to core UI/UX principles, industry best practices, and emerging trends in front-end development. By the end of the course, students will be able to transform design ideas into functional, responsive, and visually compelling web applications.
+                        </div>
+
+                        <h4 class="title">Eligibility</h4>
+                        <div class="content">
+                            <ul>
+                                <li>
+                                    <b>No Prior Coding Required:</b> This course is beginner-friendly and does not assume any programming background. Basic computer literacy is sufficient.
+                                </li>
+                                <li>
+                                    <b>Motivated Learners:</b> Ideal for individuals passionate about web design, creativity, and improving user experiences.
+                                </li>
+                                <li>
+                                    <b>Design Enthusiasts:</b> Candidates should have a strong interest in UI/UX and a willingness to explore user-centered design approaches.
+                                </li>
+                                <li>
+                                    <b>Access to Tools:</b> A computer with internet access is recommended. Familiarity with design tools like Figma or Adobe XD is an advantage but not mandatory.
+                                </li>
+                                <li>
+                                    <b>Students and Career Starters:</b> Well-suited for students, fresh graduates, or anyone transitioning into tech or seeking skills in UI/UX and frontend development.
+                                </li>
+                                <li>
+                                   <b>Device:</b> You'll need a laptop (Mac, Windows or Linux).
+                                </li>
+                            </ul>
+                        </div>
+
+                        <br>
+                        
+                        <h4 class="title">Technologies</h4>
+                        <div class="tech-container container">
+                            <div class="tech-item">
+                                <img src="img/figma.jpeg" alt="Excel">
+                                <div>Figma</div>
+                            </div>
+<!--                             <div class="tech-item">
+                                <img src="img/python.jpeg" alt="Python">
+                                <div>Python</div>
+                            </div>
+                            <div class="tech-item">
+                                <img src="img/powerbi.jpeg" alt="Power BI">
+                                <div>Power BI</div>
+                            </div> -->
+                        </div> <br>
+
+                        <h4 class="title">Program Outline</h4>
+                      <div class="module-container">
+                            <!-- Module 1: Introduction to UI/UX -->
+                            <div class="module-item" onclick="toggleModuleContent('module1-content')">
+                                Module 1: Introduction to UI/UX
+                            </div>
+                            <div id="module1-content" class="module-content">
+                                <h3>Introduction to UI/UX Design</h3>
+                                <ul>
+                                    <li>Understanding the basics of User Interface (UI) and User Experience (UX)</li>
+                                    <li>Differences between UI and UX design</li>
+                                    <li>Importance of user-centered design</li>
+                                    <li>Overview of the design process</li>
+                                </ul>
+                            </div>
+
+                            <!-- Module 2: User Research and Personas -->
+                            <div class="module-item" onclick="toggleModuleContent('module2-content')">
+                                Module 2: User Research and Personas
+                            </div>
+                            <div id="module2-content" class="module-content">
+                                <h3>User Research and Personas</h3>
+                                <ul>
+                                    <li>Conducting user research to gather insights</li>
+                                    <li>Creating user personas based on research</li>
+                                    <li>Understanding user needs, goals, and behaviors</li>
+                                    <li>Defining target audience and user scenarios</li>
+                                </ul>
+                            </div>
+
+                            <!-- Module 3: Wireframing and Prototyping -->
+                            <div class="module-item" onclick="toggleModuleContent('module3-content')">
+                                Module 3: Designing low- and high-fidelity wireframes in Figma
+                            </div>
+                            <div id="module3-content" class="module-content">
+                                <h3>Wireframing and Prototyping</h3>
+                                <ul>
+                                    <li>Introduction to wireframes: Low-fidelity vs high-fidelity</li>
+                                    <li>Creating wireframes using Figma</li>
+                                    <li>Prototyping interactive interfaces</li>
+                                    <li>Using Figma's prototyping tools to create clickable prototypes</li>
+                                </ul>
+                            </div>
+
+                            <!-- Module 4: Visual Design Principles -->
+                            <div class="module-item" onclick="toggleModuleContent('module4-content')">
+                                Module 4: Visual Design Principles
+                            </div>
+                            <div id="module4-content" class="module-content">
+                                <h3>Visual Design Principles</h3>
+                                <ul>
+                                    <li>Understanding typography fundamentals</li>
+                                    <li>Applying color theory to interface design</li>
+                                    <li>Using grid systems and layout principles in Figma</li>
+                                    <li>Using Figma for layout design</li>
+                                    <li>Creating consistency in design</li>
+                                    <li>Designing intuitive and user-friendly interfaces</li>
+                                </ul>
+                            </div>
+
+                            <!-- Module 5: Interaction Design Principles -->
+                            <div class="module-item" onclick="toggleModuleContent('module5-content')">
+                                Module 5: Principles of Interaction Design
+                            </div>
+                            <div id="module5-content" class="module-content">
+                                <h3>Principles of Interaction Design</h3>
+                                <ul>
+                                    <li>Understanding micro-interactions</li>
+                                    <li>Using animations and transitions in Figma</li>
+                                    <li>Designing interactive components to enhance user engagement</li>
+                                    <li>Creating intuitive navigation flows</li>
+                                </ul>
+                            </div>
+
+                            <!-- Module 6: Usability Testing and Iteration -->
+                            <div class="module-item" onclick="toggleModuleContent('module6-content')">
+                                Module 6: Usability Testing and Iteration
+                            </div>
+                            <div id="module6-content" class="module-content">
+                                <h3>Usability Testing and Iteration</h3>
+                                <ul>
+                                    <li>Conducting usability testing on prototypes</li>
+                                    <li>Gathering feedback and analyzing test results</li>
+                                    <li>Iterating on designs based on feedback</li>
+                                    <li>Improving usability and accessibility</li>
+                                </ul>
+                            </div>
+
+                            <!-- Module 7: Design Systems and Collaboration -->
+                            <div class="module-item" onclick="toggleModuleContent('module7-content')">
+                                Module 7: Design Systems and Collaboration
+                            </div>
+                            <div id="module7-content" class="module-content">
+                                <h3>Design Systems and Collaboration</h3>
+                                <ul>
+                                    <li>Creating and maintaining design systems in Figma</li>
+                                    <li>Using reusable components for efficiency</li>
+                                    <li>Collaborating with teams using Figma</li>
+                                    <li>Version control and managing design updates</li>
+                                </ul>
+                            </div>
+
+                            <!-- Module 8: Collaborative Design Tools and Techniques -->
+                            <div class="module-item" onclick="toggleModuleContent('module8-content')">
+                                Module 8: Collaborative Design Tools and Techniques
+                            </div>
+                            <div id="module8-content" class="module-content">
+                                <h3>Collaborative Design Tools and Techniques</h3>
+                                <ul>
+                                    <li>Using Figma for real-time collaboration</li>
+                                    <li>Integrating with other tools (e.g., Slack, Trello)</li>
+                                    <li>Managing feedback and design reviews</li>
+                                    <li>Co-designing with stakeholders and developers</li>
+                                </ul>
+                            </div>
+
+                            <!-- Module 9: Developing a Portfolio -->
+                            <div class="module-item" onclick="toggleModuleContent('module9-content')">
+                                Module 9: Developing a Portfolio
+                            </div>
+                            <div id="module9-content" class="module-content">
+                                <h3>Developing a Portfolio</h3>
+                                <ul>
+                                    <li>Showcasing completed projects in Figma</li>
+                                    <li>Structuring portfolio for job applications</li>
+                                    <li>Highlighting design process and decision-making</li>
+                                    <li>Creating a standout portfolio for UI/UX roles</li>
+                                </ul>
+                            </div>
+
+                            <!-- Module 10: Final Project and Showcase -->
+                            <div class="module-item" onclick="toggleModuleContent('module10-content')">
+                                Module 10: Final Project and Showcase
+                            </div>
+                            <div id="module10-content" class="module-content">
+                                <h3>Final Project and Showcase</h3>
+                                <ul>
+                                    <li>Capstone project: End-to-end design in Figma</li>
+                                    <li>Presenting and defending design choices</li>
+                                    <li>Showcasing the final project to peers and industry professionals</li>
+                                    <li>Portfolio review and feedback</li>
+                                </ul>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+
+
+                <div class="col-lg-4 right-contents">
+                    <ul>
+                        <li>
+                            <a class="justify-content-between d-flex" href="#">
+                                <p>Course Name:</p>
+                                <span>Product Design (UI/UX)</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a class="justify-content-between d-flex" href="#">
+                                <p>Course Fee:</p>
+                                <span>N30,000</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a class="justify-content-between d-flex" href="#">
+                                <p>Duration:</p>
+                                <span>12 Weeks</span>
+                            </a>
+                        </li>
+                       <!--  <li>
+                            <a class="justify-content-between d-flex" href="#">
+                                <p class="or">Date:</p>
+                                <span class="or">2025/01/24</span>
+                            </a>
+                        </li> -->
+                        <li>
+                            <a class="justify-content-between d-flex" href="#">
+                                <p>Mode: </p>
+                                <span>Virtual Only</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a class="justify-content-between d-flex" href="#">
+                                <p>Projects</p>
+                                <span>3</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a class="justify-content-between d-flex" href="#">
+                                <p>Enrollment</p>
+                                <span>Open</span>
+                            </a>
+                        </li>
+                    </ul>
+                    <a href="https://forms.gle/qDrV7eb79sg7GWbF8" class="btn text-uppercase enroll">Register Now</a>
+
+<!--                     <h4 class="title">Reviews</h4>
+                    <div class="content">
+                        <div class="review-top row pt-40">
+                            <div class="col-lg-12">
+                                <h6 class="mb-15">Provide Your Rating</h6>
+                                <div class="d-flex flex-row reviews justify-content-between">
+                                    <span>Quality</span>
+                                    <div class="star">
+                                        <i class="fa fa-star checked"></i>
+                                        <i class="fa fa-star checked"></i>
+                                        <i class="fa fa-star checked"></i>
+                                        <i class="fa fa-star"></i>
+                                        <i class="fa fa-star"></i>
+                                    </div>
+                                    <span>Outstanding</span>
+                                </div>
+                                <div class="d-flex flex-row reviews justify-content-between">
+                                    <span>Puncuality</span>
+                                    <div class="star">
+                                        <i class="fa fa-star checked"></i>
+                                        <i class="fa fa-star checked"></i>
+                                        <i class="fa fa-star checked"></i>
+                                        <i class="fa fa-star"></i>
+                                        <i class="fa fa-star"></i>
+                                    </div>
+                                    <span>Outstanding</span>
+                                </div>
+                                <div class="d-flex flex-row reviews justify-content-between">
+                                    <span>Quality</span>
+                                    <div class="star">
+                                        <i class="fa fa-star checked"></i>
+                                        <i class="fa fa-star checked"></i>
+                                        <i class="fa fa-star checked"></i>
+                                        <i class="fa fa-star"></i>
+                                        <i class="fa fa-star"></i>
+                                    </div>
+                                    <span>Outstanding</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="feedeback">
+                            <h6 class="mb-10">Your Feedback</h6>
+                            <textarea name="feedback" class="form-control" cols="10" rows="10"></textarea>
+                            <div class="mt-10 text-right">
+                                <a href="#" class="btn text-center text-uppercase enroll">Submit</a>
+                            </div>
+                        </div>
+                        <div class="comments-area mb-30">
+                            <div class="comment-list">
+                                <div class="single-comment single-reviews justify-content-between d-flex">
+                                    <div class="user justify-content-between d-flex">
+                                        <div class="thumb">
+                                            <img src="img/blog/c1.jpg" alt="">
+                                        </div>
+                                        <div class="desc">
+                                            <h5><a href="#">Emilly Blunt</a>
+                                                <div class="star">
+                                                    <span class="fa fa-star checked"></span>
+                                                    <span class="fa fa-star checked"></span>
+                                                    <span class="fa fa-star checked"></span>
+                                                    <span class="fa fa-star"></span>
+                                                    <span class="fa fa-star"></span>
+                                                </div>
+                                            </h5>
+                                            <p class="comment">
+                                                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+                                                eiusmod tempor incididunt ut labore et dolore.
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="comment-list">
+                                <div class="single-comment single-reviews justify-content-between d-flex">
+                                    <div class="user justify-content-between d-flex">
+                                        <div class="thumb">
+                                            <img src="img/blog/c2.jpg" alt="">
+                                        </div>
+                                        <div class="desc">
+                                            <h5><a href="#">Elsie Cunningham</a>
+                                                <div class="star">
+                                                    <span class="fa fa-star checked"></span>
+                                                    <span class="fa fa-star checked"></span>
+                                                    <span class="fa fa-star checked"></span>
+                                                    <span class="fa fa-star"></span>
+                                                    <span class="fa fa-star"></span>
+                                                </div>
+                                            </h5>
+                                            <p class="comment">
+                                                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+                                                eiusmod tempor incididunt ut labore et dolore.
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="comment-list">
+                                <div class="single-comment single-reviews justify-content-between d-flex">
+                                    <div class="user justify-content-between d-flex">
+                                        <div class="thumb">
+                                            <img src="img/blog/c3.jpg" alt="">
+                                        </div>
+                                        <div class="desc">
+                                            <h5><a href="#">Maria Luna</a>
+                                                <div class="star">
+                                                    <span class="fa fa-star checked"></span>
+                                                    <span class="fa fa-star checked"></span>
+                                                    <span class="fa fa-star checked"></span>
+                                                    <span class="fa fa-star"></span>
+                                                    <span class="fa fa-star"></span>
+                                                </div>
+                                            </h5>
+                                            <p class="comment">
+                                                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+                                                eiusmod tempor incididunt ut labore et dolore.
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div> -->
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--================ End Course Details Area =================-->
+
+    <!-- Whats App Icon -->
+  <script async src='https://d2mpatx37cqexb.cloudfront.net/delightchat-whatsapp-widget/embeds/embed.min.js'></script>
+        <script>
+          var wa_btnSetting = {"btnColor":"#16BE45","ctaText":"WhatsApp Us","cornerRadius":40,"marginBottom":20,"marginLeft":20,"marginRight":20,"btnPosition":"right","whatsAppNumber":"+2347080491060","welcomeMessage":"Hello","zIndex":999999,"btnColorScheme":"light"};
+          var wa_widgetSetting = {"title":"Sodbridge Academy","subTitle":"Typically replies within 15 mins","headerBackgroundColor":"#FBFFC8","headerColorScheme":"dark","greetingText":"Hi there! \nHow can I help you?","ctaText":"Start Chat","btnColor":"#1A1A1A","cornerRadius":40,"welcomeMessage":"Hello","btnColorScheme":"light","brandImage":"https://i.pinimg.com/736x/de/59/4e/de594ec09881da3fa66d98384a3c72ff.jpg","darkHeaderColorScheme":{"title":"#333333","subTitle":"#4F4F4F"}};  
+          window.onload = () => {
+            _waEmbed(wa_btnSetting, wa_widgetSetting);
+          };
+  </script>
+
+   <footer class="footer-area section-gap">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-4 col-md-6 single-footer-widget">
+                    <h4>Top Courses</h4>
+                    <ul>
+                        <li><a href="software-school.html">Software School</a></li>
+                        <li><a href="design-school.html">Design School</a></li>
+                        <li><a href="data-school">Data School</a></li>
+                        <li><a href="devops-school.html">Cloud School</a></li>
+                        <li><a href="cybersecurity-school.html">Cybersecurity School</a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-4 col-md-6 single-footer-widget">
+                    <h4>Quick Links</h4>
+                   <ul>
+                        <li><a href="about.html">About</a></li>
+                        <li><a href="partners.html">Partners</a></li>
+                        <li><a href="https://sodbridge.com/">Business Client</a></li>
+                        <li><a href="contacts.html">Contact</a></li>
+                    </ul>                </div>
+                <!-- <div class="col-lg-4 col-md-6 single-footer-widget">
+                    <h4>Features</h4>
+                    <ul>
+                        <li><a href="#">Jobs</a></li>
+                        <li><a href="#">Brand Assets</a></li>
+                        <li><a href="#">Investor Relations</a></li>
+                        <li><a href="#">Terms of Service</a></li>
+                    </ul>
+                </div> -->
+                <!-- <div class="col-lg-3 col-md-6 single-footer-widget">
+                    <h4>Resources</h4>
+                    <ul>
+                        <li><a href="#">Guides</a></li>
+                        <li><a href="#">Research</a></li>
+                        <li><a href="#">Experts</a></li>
+                        <li><a href="#">Agencies</a></li>
+                    </ul>
+                </div> -->
+
+                <div class="col-lg-4 col-md-6 single-footer-widget">
+                    <h4>Newsletter</h4>
+                    <p>You can trust us. we only send promo offers,</p>
+                    <div class="form-wrap" id="mc_embed_signup">
+                        <form target="_blank" action="https://spondonit.us12.list-manage.com/subscribe/post?u=1462626880ade1ac87bd9c93a&amp;id=92a4423d01"
+                         method="get" class="form-inline">
+                            <input class="form-control" name="EMAIL" placeholder="Your Email Address" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Your Email Address '"
+                             required="" type="email">
+                            <button class="click-btn btn btn-default text-uppercase">subscribe</button>
+                            <div style="position: absolute; left: -5000px;">
+                                <input name="b_36c4fd991d266f23781ded980_aefe40901a" tabindex="-1" value="" type="text">
+                            </div>
+
+                            <div class="info"></div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom row align-items-center">
+                <p class="footer-text m-0 col-lg-8 col-md-12">
+<!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | This website is made with <i class="fa fa-heart-o" aria-hidden="true"></i> by <a href="https://sodbridge.com" target="">Sodbridge</a>
+<!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. --></p>
+                <div class="col-lg-4 col-md-12 footer-social">
+                    <a href="https://web.facebook.com/sodbridgeacademy" target="_blank"><i class="fa fa-facebook"></i></a>
+                    <a href="https://twitter.com/SodbridgeAcade1" target="_blank"><i class="fa fa-twitter"></i></a>
+                    <a href="https://www.linkedin.com/company/sodbridgeacademy/" target="_blank"><i class="fa fa-linkedin"></i></a>
+                    <a href="https://www.instagram.com/sodbridgeacademy/" target="_blank"><i class="fa fa-instagram"></i></a>
+                    <a href="https://www.youtube.com/@sodbridgeacademy" target="_blank"><i class="fa fa-youtube"></i></a>
+                </div>
+            </div>
+        </div>
+    </footer>
+  <!-- ================ End footer Area ================= -->
+
+    <script src="js/vendor/jquery-2.2.4.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js" integrity="sha384-b/U6ypiBEHpOf/4+1nzFpr53nxSS+GLCkfwBdFNTxtclqqenISfwAzpKaMNFNmj4"
+        crossorigin="anonymous"></script>
+    <script src="js/vendor/bootstrap.min.js"></script>
+    <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBhOdIF3Y9382fqJYt5I_sswSrEw5eihAA"></script>
+    <script src="js/jquery.ajaxchimp.min.js"></script>
+    <script src="js/jquery.magnific-popup.min.js"></script>
+    <script src="js/parallax.min.js"></script>
+    <script src="js/owl.carousel.min.js"></script>
+    <script src="js/jquery.sticky.js"></script>
+    <script src="js/hexagons.min.js"></script>
+    <script src="js/jquery.counterup.min.js"></script>
+    <script src="js/waypoints.min.js"></script>
+    <script src="js/jquery.nice-select.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+
+</html>
+
+<!-- you recently started working for a space org. your coy has scored all of the data related to the location and the cause of landslide events around the world in a relational db. your manager and architect wanna reduce the license cost of the rel db. they want you to convert it into a nosql db. convert and store in mongo db. intructions;
+download data from catalog.csv file, analyze the data, create the collection in mongo db, copy the first 5 rows from the csv file, insert it into the mongo db collection. -->
+
+<!-- installing mongo db open source on a virtual machine; instructions; install virtual box, create virtual machine and download the linux edition ubuntu, install ubuntu os on the vm, import the public key, create a list file for mongo db, reload the local package db, install mongo db packages, start the mongo db, validate installation, verify it has started in /var/log/mongoDB/mongod.log file    -->
